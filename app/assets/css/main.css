@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #6FBE44;
+    --secondary-color: #06151C;
+    --text-secondary-color: #06151C;
+
+    --text-xs: 0.75rem;      /* 12px */
+    --text-sm: 0.875rem;     /* 14px */
+    --text-base: 1rem;       /* 16px */
+    --text-lg: 1.125rem;     /* 18px */
+    --text-xl: 1.25rem;      /* 20px */
+    --text-2xl: 1.5rem;      /* 24px */
+    --text-3xl: 1.875rem;    /* 30px */
+    --text-4xl: 2.25rem;     /* 36px */
+    --text-5xl: 3rem;        /* 48px */
+    --text-6xl: 3.75rem;     /* 60px */
+    --text-7xl: 4.5rem;      /* 72px */
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.leading-tighter {
+    line-height: 1.1;
+}
+
+.leading-tight-custom {
+    line-height: 1.15;
+}
+
+.leading-snug-custom {
+    line-height: 1.25;
+}
+
+.leading-normal-custom {
+    line-height: 1.35;
+}
+
+* {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--secondary-color);
+    scrollbar-gutter: stable;
+}
